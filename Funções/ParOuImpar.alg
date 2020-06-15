@@ -1,0 +1,24 @@
+algoritmo "VerificarParOuImpar"
+// Função :
+// Autor :
+// Data : 15/05/2019
+// Seção de Declarações 
+var
+   N: Inteiro
+   R: Caractere
+   
+Funcao ParOuImpar(V: Inteiro): Caractere
+Inicio
+      Se (V % 2 = 0) ENTAO
+         Retorne "Par"
+      senao
+           Retorne "Impar"
+      FimSe
+FimFuncao
+inicio
+      Escreva("Digite um número: ")
+      Leia(N)
+      R <- ParOuImpar(N)
+      Escreva("O número ", N, " é um valor ", R)
+      
+fimalgoritmo
